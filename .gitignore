@@ -25,6 +25,7 @@ data/summaries/*
 !data/summaries/.gitkeep
 data/samples/uploads/*
 !data/samples/uploads/.gitkeep
+data/cache/
 
 # IDEs and OS files
 .vscode/
