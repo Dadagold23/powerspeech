@@ -196,7 +196,7 @@ php -S localhost:8000
 ```
 Open your browser and navigate to: `http://localhost:8000/speech.php`.
 
-*(Alternatively, place the project inside your XAMPP `htdocs` folder and open `http://localhost/powerspeech/speech.php`)*.
+*(Alternatively, place the project inside your XAMPP `htdocs` folder and open `http://localhost/robot/speech.php`)*.
 
 ### Option B: Launch the Desktop GUI Application
 ```bash
