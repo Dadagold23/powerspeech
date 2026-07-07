@@ -1,0 +1,33 @@
+# Python virtual environment
+venv/
+.venv/
+ENV/
+
+# Python cache & compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Local configuration
+.env
+.env.local
+
+# Logs
+*.log
+app.log
+
+# User session data and uploads (ignore dynamically saved sessions, keep standard samples)
+data/transcripts/*
+!data/transcripts/.gitkeep
+data/summaries/*
+!data/summaries/.gitkeep
+data/samples/uploads/*
+!data/samples/uploads/.gitkeep
+
+# IDEs and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

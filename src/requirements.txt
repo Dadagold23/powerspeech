@@ -1,0 +1,31 @@
+# Core AI / ML
+openai-whisper
+transformers
+torch
+torchaudio
+
+# Audio processing
+sounddevice
+soundfile
+librosa
+numpy
+scipy
+
+# Evaluation metrics
+jiwer
+rouge-score
+
+# UI
+ttkthemes
+pillow
+
+# Utilities
+python-dotenv
+pandas
+matplotlib
+
+# Testing
+pytest
+
+# Notebooks (optional)
+jupyter
