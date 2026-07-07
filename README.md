@@ -190,11 +190,11 @@ PYTHON_BIN=venv/Scripts/python.exe
 ## 🚀 Running the Application
 
 ### Option A: Run the Web Client (Recommended)
-Start the PHP built-in web server:
+Start the PHP built-in web server from the project directory (pointing to the parent folder as document root):
 ```bash
-php -S localhost:8000
+php -S localhost:8000 -t ..
 ```
-Open your browser and navigate to: `http://localhost:8000/speech.php`.
+Open your browser and navigate to: `http://localhost:8000/robot/speech.php`.
 
 *(Alternatively, place the project inside your XAMPP `htdocs` folder and open `http://localhost/robot/speech.php`)*.
 
